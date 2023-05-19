@@ -1,0 +1,375 @@
+:root {
+  --page-background-color: #ffffff;
+  --text-color: #434455;
+  --main-text-color: #2e2f42;
+  --primary-background-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --accent-dark-color: #404bbf;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--page-background-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*-------LOGO----------*/
+
+.logo {
+  margin-right: 76px;
+  color: var(--accent-color);
+}
+
+.accent {
+  color: var(--main-text-color);
+}
+
+.logo,
+.accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-logo {
+  color: var(--accent-color);
+}
+
+.accent-accent {
+  color: var(--primary-background-color);
+}
+
+.logo-logo,
+.accent-accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.address {
+  font-style: normal;
+}
+
+/*------HEADER-------*/
+
+.header-list .header-link:hover,
+.header-list .header-link:focus {
+  color: #404bbf;
+}
+
+.header-list .header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+.header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-right: auto;
+  padding: 0;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-address {
+  display: flex;
+  gap: 40px;
+}
+
+/*--------HERO---------*/
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--main-text-color);
+}
+
+.hero-container .hero-name {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  font-weight: 700px;
+  font-size: 56px;
+  max-width: 496px;
+
+  color: #ffffff;
+
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/*------Header-Button------*/
+
+.header-button:hover,
+.header-button:focus {
+  background-color: #404bbf;
+}
+
+.header-button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  border: 0;
+  border-radius: 4px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: #4d5ae5;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+/*----Section-Features------*/
+
+.about-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.picture-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
+  margin-top: 72px;
+}
+
+.section-features {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*----------Section-Team---------*/
+
+.section-team {
+  background-color: var(--primary-background-color);
+  margin: 0;
+}
+
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  background-color: var(--page-background-color);
+  width: calc((100%-72px) / 4);
+  margin-right: 24px;
+  display: block;
+  max-width: 100%;
+}
+
+.section-team-features {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.section-team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.section-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*-----------FOOTER-----------*/
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-background-color);
+}
+
+/*-------PORTFOLIO--------*/
+
+.project-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.button-list {
+  display: flex;
+  align-items: center;
+}
+
+.button-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+}
+
+.button-btn:hover,
+.button-btn:focus {
+  color: var(--page-background-color);
+}
+
+.button-btn:hover,
+.button-btn:focus {
+  background-color: var(--accent-dark-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*----FOOTER----*/
+
+.footer {
+  background-color: var(--main-text-color);
+}
