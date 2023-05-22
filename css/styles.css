@@ -219,7 +219,6 @@ img {
   margin: -1px;
 }
 
-
 .about-features {
   display: flex;
   gap: 24px;
@@ -290,9 +289,7 @@ img {
 
 .section-team-features {
   margin-bottom: 72px;
-
   color: var(--main-text-color);
-
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -387,18 +384,17 @@ img {
 }
 
 .gallery-item {
-  width: calc((100% - 48px) - 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .gallery-item-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .project-name {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
