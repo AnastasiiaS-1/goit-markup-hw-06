@@ -222,8 +222,6 @@ img {
 .about-features {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .about-features-item {
@@ -249,11 +247,6 @@ img {
 
 .features-doing {
   padding-bottom: 120px;
-}
-
-.team-features {
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 
 .section-features-doing {
@@ -340,7 +333,6 @@ img {
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
@@ -380,7 +372,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 120px;
 }
 
 .gallery-item {
@@ -417,7 +408,6 @@ img {
 }
 
 .footer-text {
-  padding-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
